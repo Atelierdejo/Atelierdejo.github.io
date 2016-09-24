@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Font logo";
+    src: url('Ressource/PWBrusheez.ttf');
+}
+
+body {background-color:#2d2d2d;
+      font-family:"Font logo";
+      color:#e7e7e7}
+h1 {font-size:120;
+    color:#e7e7e7}
+h2 {font-size:70;
+    color:#e7e7e7}
+h3 {font-size:30;
+    color:#e7e7e7}
+h4 {font-size:20;
+    color:#e7e7e7}
+a {font-size:20;
+   color:#e7e7e7}
+
+   a.no-decoration {text-decoration: none;}
