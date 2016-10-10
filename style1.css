@@ -1,20 +1,44 @@
 @font-face {
     font-family: "Font logo";
-    src: url('Ressource/PWBrusheez.ttf');
+    src: url('PWBrusheezz.ttf');
 }
 
-body {background-color:#2d2d2d;
-      font-family:"Font logo";
-      color:#e7e7e7}
-h1 {font-size:120;
-    color:#e7e7e7}
-h2 {font-size:70;
-    color:#e7e7e7}
-h3 {font-size:30;
-    color:#e7e7e7}
-h4 {font-size:20;
-    color:#e7e7e7}
-a {font-size:20;
-   color:#e7e7e7}
+body {background-color:#262626;}
 
-   a.no-decoration {text-decoration: none;}
+/* CONTENUE */
+#content                  {width:800px;margin:auto; font-family:"Font logo";}
+
+/* ENTETE */
+#entete                   {width:700px; margin:auto;}
+
+/* RUBRIQUE */
+#side                     {background-color:#464646;float:left;}
+#rubrique                 {width:250px; background-color:#535353;}
+#rubrique h1              {background-color:#393939; color:white; padding-left:4px; font-family:"Font logo";}
+#rubrique iframe          {margin:auto;}
+#rubrique ul              {margin:0; padding:0; font-family:"Font logo";}
+#rubrique li              {margin:0; padding:0; list-style-type:none; font-family:"Font logo";}
+#rubrique img             {margin:auto;}
+#rubrique a               {color:#e1e1e1; text-decoration:none; padding-left:4px; font-family:"Font logo";}
+#rubrique h2              {color:#e1e1e1; font-size:15px; padding-left:4px; font-family:"Font logo";}
+
+/* SECTION */
+#section                {width:500px; background-color:#2e3136; padding:5px; float:left;}
+#article                {background-color:#282b30}
+#article h1             {font-size:25px; color:#a0a8aa; background-color:#1e2124}
+#article h2             {font-size:15px; color:#a0a8aa; background-color:#1e2124}
+#article p              {color:#a0a8aa; font-size:20px; line-height:23px;}
+
+/* CONTACT */
+#contact h1             {font-size:35px; color:#e1e1e1; font-family:"Font logo";}
+#contact h4             {color:#e1e1e1; font-size:15px; padding-left:4px; font-family:"Font logo";}
+#contact a              {color:#e1e1e1; text-decoration:none; padding-left:4px; font-family:"Font logo";}
+
+/* CATALOGUE */
+#catalogue h1           {font-size:35px; color:#e1e1e1; font-family:"Font logo";}
+#catalogue h2           {color:#e1e1e1; font-size:20px; padding:0px; font-family:"Font logo";}
+#catalogue h4           {color:#e1e1e1; font-size:15px; padding:0px; font-family:"Font logo";}
+#catalogue a            {color:#e1e1e1; text-decoration:none; padding-left:4px; font-family:"Font logo";}
+#catalogue article      {width:155px; float:left; padding:3px;}
+#catalogue table        {float:left; padding:0px; text-align:center; line-height:12px;}
+#catalogue td           {vertical-align:middle;}

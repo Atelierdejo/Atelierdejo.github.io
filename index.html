@@ -1,31 +1,71 @@
-
+<!DOCTYPE html>
 
 <html>
 
   <head>
-    <title>L'atelier de Jo - Objets personalisable</title>
-    <link rel='stylesheet' href='style1.css' />
+    <title>L'atelier de Jo</title>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon" href="ressource/iconespyro.ico" />
+    <link rel="stylesheet" href="style1.css" />
   </head>
 
   <body>
-    <center><img src='Ressource/Logo.png'></center><br>
-    <table align='center'>
-      <tr>
-        <td><a class='no-decoration' href='index.html'> Qui suis-je ? </a></td>
-        <td><a class='no-decoration' href='galerie.html'>- Galerie des réalisations </a></td>
-        <td><a class='no-decoration' href='contact.html'>- Me contacter </a></td>
-        <td><a class='no-decoration' href='catalogue.html'>- Catalogue </a></td>
-      </tr>
-    </table>
+    <div id='content'>
 
-    <center><img src='Ressource/IMGP0847.png' width=750 height=321></center><br>
-    <center><h4>je m'appelle Jonathan Vanhoutte j'ai 23ans, j'habite a Marquette-lez-Lille et je suis le créateur de ce site et de cette boutique ainsi de ces objets qui y sont présentés.</h4><br>
-    <h4>Je suis un grand passionné de sublimation et de gravure sur bois, la manière dont mes objets proposés dans cette boutique sont conçus.
-      Je suis aussi passionné de making et de dessins, vous pouvez d'ailleurs me suivre <a href='catalogue.html'> sur ma page facebook
-      </a> ou même <a href='http://spyrojojo.Github.Io'> sur mon autre site. </a>
-      N'hésiter surtout pas à jeter un oeil dans les visuels du site (<a href='galerie.html'> la galerie </a>), si ça vous intéresse à visiter <a href='catalogue.html'> le catalogue </a>
-      et à me <a href='contact.html'> contacté </a> en cas de questions et/ou de commandes.</h4>
-  <h4>Bonne visite a tous !</h4></center>
+      <header id='entete'> <img id='logo' src='ressource/logo.png'></header>
+
+      <aside id='side'>
+
+        <!--1er menu-->
+        <section id='rubrique'>
+          <h1>LA BOUTIQUE</h1>
+          <ul>
+            <li><h2 id="contact">Me contacter.</h2></li>
+            <li><h2 id="commande">Passer commande.</h2></li>
+            <li><h2 id="activite">Moi et mon activité.</h2></li>
+            <li><h2 id="galerie">Galerie des réalisations.</h2></li>
+          </ul>
+        </section></br>
+        <section id='rubrique'>
+          <h1>LE CATALOGUE</h1>
+          <ul>
+            <li><h2 id="mug">Mugs, assiettes et autre vaisselles</h2></li>
+            <li><h2 id="cadre">Cadres et ardoises</h2></li>
+            <li><h2 id="keychain">Portes-clés et assessoires</h2></li>
+            <li><h2 id="boite">Boites</h2></li>
+            <li><h2 id="sac">Bagagerie</h2></li>
+            <li><h2 id="peluche">Peluches</h2></li>
+            <li><h2 id="coussins">Coussins</h2></li>
+            <li><h2 id="coques">Coque téléphones et Tablettes</h2></li>
+            <li><h2 id="cuisine">Cuisine et salle de bain</h2></li>
+            <li><h2 id="textile">vétements</h2></li>
+            <li><h2 id="autres">Autres</h2></li>
+            <li><h2 color="red" id="fete">NOEL !!</h2></li>
+          </ul>
+        </section></br>
+      </aside>
+
+      <section id='section'>
+        <article id="iframe">
+          <iframe  src='activite.html' height="1500px" width="500px"></iframe>
+        </article>
+
+      </section></BR>
+      </div>
+
+
+    </div>
+    <script>
+      var img2 = document.getElementById('iframe')
+
+      contact.onclick = function(){img2.innerHTML = '<iframe  src='+ "contact.html" +' height="1500px" width="500px"></iframe>'};
+      commande.onclick = function(){img2.innerHTML = '<iframe  src='+ "commande.html" +' height="1500px" width="500px"></iframe>'};
+      activite.onclick = function(){img2.innerHTML = '<iframe  src='+ "activite.html" +' height="1500px" width="500px"></iframe>'};
+      galerie.onclick = function(){img2.innerHTML = '<iframe  src='+ "galerie.html" +' height="1500px" width="500px"></iframe>'};
+
+      mug.onclick = function(){img2.innerHTML = '<iframe  src='+ "mug.html" +' height="1500px" width="500px"></iframe>'};
+
+    </script>
   </body>
 
 </html>
