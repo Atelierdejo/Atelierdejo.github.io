@@ -9,7 +9,9 @@ body {background-color:#262626;}
 #content                  {width:800px;margin:auto; font-family:"Font logo";}
 
 /* ENTETE */
-#entete                   {width:700px; margin:auto;}
+#entete                   {width:700px; margin:auto; text-align:center; color:#e1e1e1}
+#entete h1                {font-size:55px;}
+#entete h3                {font-size:25px; line-height:27px;}
 
 /* RUBRIQUE */
 #side                     {background-color:#464646;float:left;}
