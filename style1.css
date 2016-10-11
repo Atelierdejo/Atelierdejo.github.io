@@ -38,9 +38,9 @@ body {background-color:#262626;}
 
 /* CATALOGUE */
 #catalogue h1           {font-size:35px; color:#e1e1e1; font-family:"Font logo";}
-#catalogue h2           {color:#e1e1e1; font-size:20px; padding:0px; font-family:"Font logo";}
-#catalogue h4           {color:#e1e1e1; font-size:15px; padding:0px; font-family:"Font logo";}
+#catalogue h2           {color:#e1e1e1; font-size:25px; padding:1px; font-family:"Font logo";}
+#catalogue h4           {color:#e1e1e1; font-size:15px; padding:1px; font-family:"Font logo";}
 #catalogue a            {color:#e1e1e1; text-decoration:none; padding-left:4px; font-family:"Font logo";}
-#catalogue article      {width:155px; float:left; padding:3px;}
-#catalogue table        {float:left; padding:0px; text-align:center; line-height:12px;}
+#catalogue article      {width:455px; float:left; padding:3px;}
+#catalogue table        {float:left; padding:0px; text-align:center; line-height:15px; width:450px;}
 #catalogue td           {vertical-align:middle;}
