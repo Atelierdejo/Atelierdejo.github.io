@@ -33,33 +33,15 @@ header        {display: flex;
                text-decoration: underline; }
 
 #menu         {display: flex;
-               align-items: top;
+               align-items: center;
                justify-content: center;
-               background: url('data/line.png') repeat-x bottom;}
-#menu div     {display: flex;
-               width: 100px;
-               margin-left: 30px;
-               margin-bottom:5px;
-               flex-direction: column;}
-#menu div:hover {display: flex;
-                 width: 100px;
-                 margin-left: 30px;
-                 background-color: #404040;
-                 flex-direction: column;}
-
-#menu img      {padding-top: 10px;
-                display: inline-block;
-                margin: auto;
-                height:40px;
-                width: 40px;}
+                background: url('data/line.png') repeat-x bottom;}
+#menu ul       {list-style-type: none;
+                display: flex;}
+#menu li       {margin-right: 20px;}
 #menu a        {text-decoration: none;
-                font-size:15px;
-                text-align: center;
-                padding-top: 5px;
                 color: #cccccc; }
 #menu a:hover  {color: #cccccc;
-                text-align: center;
-                padding-top: 5px;
                 text-decoration: underline; }
 
 #banniere      {background: url('data/banniere.png') no-repeat;
