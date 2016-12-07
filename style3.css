@@ -101,7 +101,8 @@ header        {display: flex;
 #corps           {background: url('data/line.png') repeat-x bottom;}
 
 #article         { display: flex;
-                   justify-content: center;}
+                   justify-content: center;
+                   flex-wrap: wrap;}
 article          { margin: 10px;
                    width: 250px;
                    padding-top: 10px;
